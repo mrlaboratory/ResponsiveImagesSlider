@@ -36,3 +36,20 @@ height: 100%;
     -3px -3px 4px #3d3d3c;
 
    }
+
+   button{
+       padding: 15px;
+       border-radius: 10px;
+       outline: none;
+       border: none;
+       position: absolute;
+       box-shadow: 3px 3px 4px #3d3d3c,
+       -3px -3px 4px #3d3d3c;
+       cursor: pointer;
+   }
+   .btnright{
+right: 40%;
+   }
+   .btnleft{
+    left: 40%;
+       }

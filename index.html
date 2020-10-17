@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Images Slider</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
 </head>
 <body>
     
 <div class="imagesSliderMR">
     <div class="imgResMR">
         <img src="img/1.png" alt="">
-        <div class="buttonDiv"></div>
+        <div class="buttonDiv">
+            <button class="btnright" onclick="next()"><i class="fas fa-arrow-right"></i></button>
+            <button class="btnleft" onclick="prev()"><i class="fas fa-arrow-left"></i></button>
+        </div>
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
